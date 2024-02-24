@@ -7,7 +7,7 @@ provider "azurerm" {
 }
 
 provider "aviatrix" {
-  controller_ip = "controller-prd.ananableu.fr"
+  controller_ip = var.controller_ip
   username      = "admin"
   password      = var.controller_password
 }

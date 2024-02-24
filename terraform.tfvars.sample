@@ -1,0 +1,3 @@
+admin_password      = "Your VM password"
+controller_password = "Aviatrix controller password"
+controller_ip       = "Your Aviatrix controller FQDN or IP"

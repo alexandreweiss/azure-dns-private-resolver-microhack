@@ -10,6 +10,13 @@
 
 # Prerequisites
 
+## Do it with Aviatrix overlay
+
+- You need to have an Aviatrix controller up and running with access to an Azure Subscription.
+- Fill in the variable files with your input and just deploy the lab.
+  
+You just need to continue at Challenge 1 / Task 1 to configure ruleset so that spoke and hub VMs can resolve onpremise-vm.contoso.internal IP address.
+
 ## Overview
 
 This Microhack purpose is to demonstrate the [Azure DNS Private resolver](https://docs.microsoft.com/en-gb/azure/dns/dns-private-resolver-overview) service. A common architecture found around DNS setup between on-premise and Azure environments looks like

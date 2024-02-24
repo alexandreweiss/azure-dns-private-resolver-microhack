@@ -36,6 +36,10 @@ variable "admin_password" {
   type        = string
 }
 
+variable "controller_ip" {
+  description = "FQDN or IP of the Aviatrix controller"
+}
+
 variable "controller_password" {
   description = "Aviatrix controller admin password"
 }
