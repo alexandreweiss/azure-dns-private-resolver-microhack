@@ -2,9 +2,14 @@
 # Variables
 #########################################################
 
+variable "azure_account" {
+  description = "CSP account onboarder on the controller"
+  default     = "azure-alweiss"
+}
+
 variable "onpremise_location" {
   type        = string
-  default     = "northeurope"
+  default     = "North Europe"
   description = "On-premise resources location"
 }
 
@@ -16,7 +21,7 @@ variable "onpremise_bgp_asn" {
 
 variable "azure_location" {
   type        = string
-  default     = "westeurope"
+  default     = "West Europe"
   description = "Azure resources location"
 }
 

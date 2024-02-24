@@ -6,6 +6,20 @@ provider "azurerm" {
   }
 }
 
+provider "aviatrix" {
+  controller_ip = "controller-prd.ananableu.fr"
+  username      = "admin"
+  password      = "Chanelavi-123"
+}
+
+terraform {
+  required_providers {
+    aviatrix = {
+      source = "AviatrixSystems/aviatrix"
+    }
+  }
+}
+
 #########################################################
 # Resource Group for all resources used in the MicroHack
 #########################################################
