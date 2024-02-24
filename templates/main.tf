@@ -9,7 +9,7 @@ provider "azurerm" {
 provider "aviatrix" {
   controller_ip = "controller-prd.ananableu.fr"
   username      = "admin"
-  password      = "Chanelavi-123"
+  password      = var.controller_password
 }
 
 terraform {

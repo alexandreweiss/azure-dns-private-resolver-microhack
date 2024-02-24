@@ -36,6 +36,10 @@ variable "admin_password" {
   type        = string
 }
 
+variable "controller_password" {
+  description = "Aviatrix controller admin password"
+}
+
 variable "vm_size" {
   type        = string
   default     = "Standard_DS1_v2"
